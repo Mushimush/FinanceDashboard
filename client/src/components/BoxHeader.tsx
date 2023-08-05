@@ -3,7 +3,7 @@ import { Box, Typography, useTheme } from "@mui/material";
 
 type Props = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   icon?: React.ReactNode;
   sideText: string;
 };
